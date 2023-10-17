@@ -18,7 +18,7 @@ setImmediate(() =>{
     console.log('Immediate - 0s -  Timer 1')
 }, 0)
 
-//Timer phrase 1
+//Timer phrase 2
 setTimeout(() =>{
     console.log('Timeout - 0s -  Timer 1')
 }, 0)

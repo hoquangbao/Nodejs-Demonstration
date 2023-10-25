@@ -1,3 +1,3 @@
-const currentFile = __filename.split('/').splice(5).join('/')
+import _ from 'lodash'
 
-console.log('NODE RAN: ', currentFile)
+console.log(_.add(1, 3))

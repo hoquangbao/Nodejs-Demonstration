@@ -5,15 +5,20 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "npx tsc"
+    "build": "npx tsc",
+    "jasmine" : "jasmine",
+    "test" : "npm run build && npm run jasmine"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "fs": "^0.0.1-security",
+    "jasmine": "^5.1.0",
+    "jasmine-spec-reporter": "^7.0.0",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
+    "@types/jasmine": "^5.1.1",
     "@types/lodash": "^4.14.200",
     "@types/node": "^20.8.8",
     "prettier": "^3.0.3",
